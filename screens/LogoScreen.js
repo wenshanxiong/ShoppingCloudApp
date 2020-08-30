@@ -4,9 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function LogoScreen () {
   return (
     <View style={styles.container}>
-      <Text>
-        FA LOGO
-      </Text>
+      <Text>FA LOGO</Text>
     </View>
   );
 }
