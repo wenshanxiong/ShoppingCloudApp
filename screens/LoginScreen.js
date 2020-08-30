@@ -1,12 +1,19 @@
 import React from 'react';
-import { Body, Button, Container, Content, Header, Left, Right, Text, Title } from 'native-base';
+import { StyleSheet, Text, View } from 'react-native'
 
 export default function LoginScren ({ navigation }) {
   return (
-    <Container>
-      <Button>
-        <Text>Hello</Text>
-      </Button>
-    </Container>
+    <View style={styles.container}>
+      <Text>This is the Login Page</Text>
+    </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center'
+  }
+});
